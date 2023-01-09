@@ -1,0 +1,18 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(card.css);
+
+:root {
+    --branco: #FFFFFF;
+    --cor-de-fundo: #EBECEE;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
