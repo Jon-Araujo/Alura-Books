@@ -1,6 +1,6 @@
 .card {
     background-color: var(--branco);
-    margin: 1em 0.8em 0.5em;
+    margin: 1em 0.8em;
     display: flex;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -38,4 +38,9 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    border-color: transparent;
+}
+
+.card-icones {
+    padding: 2em 0 0;
 }

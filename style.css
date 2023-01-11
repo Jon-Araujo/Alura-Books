@@ -2,6 +2,7 @@
 @import url(banner.css);
 @import url(carrossel.css);
 @import url(card.css);
+@import url(rodape.css);
 
 :root {
     --branco: #FFFFFF;
@@ -12,7 +13,17 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
-body {
+header,
+main {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
+}
+
+main {
+    padding-bottom: 1em;
+}
+
+footer {
+    padding-top: 2em;
+    background-color: #FFFFFF;
 }
