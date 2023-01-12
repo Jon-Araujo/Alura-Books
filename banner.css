@@ -2,7 +2,7 @@
     background: var(--azul-gradiente);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 1em;
+    padding: 2.5em 2em;
 }
 
 .pesquisa-titulo {
@@ -31,7 +31,8 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    text-align: center;
+    padding-left: 3em;
     background: url(imagens/Pesquisa.svg) no-repeat;
     background-position: 1em;
+    font-family: var(--fonte-principal);
 }

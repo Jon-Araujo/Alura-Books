@@ -21,7 +21,7 @@
         <section class="navbar">
             <div class="container">
                 <input type="checkbox" id="menu" class="nav-botao">
-                <label for="menu" class="nav-img">
+                <label for="menu" class="nav-img container-rotulo">
                     <span class="container-imagem"></span>
                 </label>
                 <ul class="lista-menu">
@@ -32,7 +32,8 @@
                     <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
                     <li class="lista-menu__item"><a href="#" class="lista-menu__link">Desing & UX</a></li>
                 </ul>
-                <a href="#"><img src="imagens/Logo.svg" alt="Logo do AluraBooks" class="container-imagem"></a>
+                <a href="#" class="logo"><img src="imagens/Logo.svg" alt="Logo do AluraBooks"
+                        class="container-imagem"></a>
             </div>
             <div class="container">
                 <a href="#"><img src="imagens/Favoritos.svg" alt="Icone de favoritos" class="container-imagem"></a>
@@ -88,15 +89,13 @@
             <div class="swiper">
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
-                    <div class="swiper-slide"><img src="imagens/Arquitetura.svg" alt="Livro arquitetura de software">
+                    <div class="swiper-slide"><img src="imagens/Guia Front-end.svg" alt="Livro Guia Front-End."></div>
+                    <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="Livro Sobre Acessibilidade.">
                     </div>
-                    <div class="swiper-slide"><img src="imagens/Gestão.svg" alt="Livro de Gestão de produtos"></div>
-                    <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="Livro Javascript assertivo"></div>
-                    <div class="swiper-slide"><img src="imagens/Nodejs.svg" alt="Livro Nodejs"></div>
-                    <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro de Portugol"></div>
-                    <div class="swiper-slide"><img src="imagens/ReactNative.svg" alt="Livro de React Native"></div>
-                    <div class="swiper-slide"><img src="imagens/Tuning.svg" alt="Livro de Tuning de SQL"></div>
+                    <div class="swiper-slide"><img src="imagens/MetricasAgeis.svg" alt="Livro sobre métricas ágeis.">
+                    </div>
+                    <div class="swiper-slide"><img src="imagens/Gestão2.svg" alt="Livro sobre gestão."></div>
+                    <div class="swiper-slide"><img src="imagens/Liderança.svg" alt="Livro sobre liderança."></div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -139,8 +138,9 @@
         <section class="email-rodape">
             <h2 class="titulo-rodape">Fique por dentro das novidades!</h2>
             <p class="texto-rodape">Atualizações de e-books, novos livros, promoções e outros.</p>
-            <a href="#" class="cadastro-email">Cadastre seu e-mail</a>
+            <input type="email" placeholder="Cadastre seu e-mail" class="cadastro-email">
         </section>
+        <hr />
         <p class="texto-final">Grupo Alura</p>
     </footer>
 
