@@ -42,5 +42,28 @@
 }
 
 .card-icones {
-    padding: 2em 0 0;
+    padding: 1em 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 55%;
+        margin: 3em auto;
+    }
+
+    .card-icones {
+        padding-top: 22%;
+    }
+
+    .bloco2-card {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .botao-saiba-mais {
+        margin: 1em 0 0;
+        padding: 0.5em 1em;
+    }
 }

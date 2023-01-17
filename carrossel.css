@@ -22,3 +22,33 @@
     position: initial;
     margin: 0.5em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel-titulo {
+        padding-top: 2.5em;
+    }
+
+    .swiper-pagination {
+        padding: 1em 0 4em;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+        top: 60%;
+        background: var(--azul-gradiente);
+        color: var(--branco);
+        border-radius: 50%;
+        padding: 1em;
+        width: 2.5em;
+        text-align: center;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-slide img {
+        width: 80%;
+    }
+}

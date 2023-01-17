@@ -37,4 +37,22 @@
     font-family: var(--fonte-principal);
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .pesquisa {
+        padding: 5em 0;
+    }
+
+    .pesquisa-titulo {
+        font-size: 36px;
+    }
+
+    .pesquisa-input {
+        margin-top: 1em;
+        width: 50%;
+    }
+
+    .pesquisa-input::placeholder {
+        text-align: center;
+        background-position: 25%;
+    }
+}

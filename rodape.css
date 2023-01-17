@@ -32,13 +32,13 @@
 }
 
 .titulo-rodape {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
 }
 
 .texto-rodape {
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     padding: 0.5em 0 1.5em;
@@ -69,7 +69,49 @@ hr {
 
 .texto-final {
     padding: 1em 0 1.5em 1.5em;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.link-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .lista-visitados {
+        margin: 0 15%;
+    }
+    
+    .lista-visitados li {
+        padding: 1.5em 2em;
+        margin: 0.5em;
+    }
+
+    .email-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 0;
+        margin: 0 auto;
+    }
+
+    .titulo-rodape {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .texto-rodape{
+        padding: 0;
+        margin-top: 8px;
+        width: 80%;
+    }
+
+    .cadastro-email {
+        width: 40%;
+    }
+
+    .link-rodape {
+        display: flex;
+    }
 }
