@@ -150,3 +150,62 @@ hr {
         padding: 0 0.5em 1em 0;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    footer {
+        padding: 0 !important;
+    }
+
+    .titulo-visitados {
+        font-size: 32px;
+        line-height: 48px;
+        padding: 2em 0 1em;
+    }
+
+    .lista-visitados {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .email-rodape {
+        justify-content: center;
+    }
+
+    .cadastro-email {
+        width: 30%;
+    }
+
+    .titulo-rodape {
+        width: 85%;
+    }
+
+    .texto-rodape {
+        width: 65%;
+    }
+
+    .titulo-lista-rodape {
+        margin-bottom: 2em;
+    }
+
+    .link-rodape {
+        margin: 4rem 3rem 4rem 2rem;
+    }
+
+    .link-rodape ul {
+        padding-left: 1em;
+        border-left: 1px solid #000000;
+    }
+
+    .item-lista-rodape:hover {
+        color: var(--laranja);
+    }
+
+    .lista-visitados li:hover {
+        background-color: var(--branco);
+        color: var(--laranja);
+    }
+
+    .botao-saiba-mais:active {
+        background-color: var(--azul);
+    }
+}

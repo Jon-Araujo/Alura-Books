@@ -70,11 +70,11 @@
 
 @media screen and (min-width: 1728px) {
     .card {
-        grid-area: "card";
+        transform: scale(0.8);
+        margin: 0;
+        max-width: 30vw;
+        margin: 3em 0 2em;
+        position: relative;
+        right: 15%
     }
-
-    /* .card-responsivo {
-        display: inline-block;
-        width: 49%;
-    } */
 }
