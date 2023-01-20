@@ -56,3 +56,13 @@
         background-position: 25%;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .pesquisa-texto {
+        font-size: 16px;
+    }
+
+    .pesquisa-input {
+        width: 35%;
+    }
+}

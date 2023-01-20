@@ -52,13 +52,16 @@
                 <a href="#">favoritos</a>
                 <a href="#">minha estante</a>
             </section>
-            <div class="container">
+            <div class="container container-icones">
                 <a href="#"><img src="imagens/Favoritos.svg" alt="Icone de favoritos"
                         class="container-imagem icone-favoritos"></a>
                 <a href="#"><img src="imagens/Compras.svg" alt="Icone de compras"
-                        class="container-imagem icone-compras"></a>
-                <a href="#"><img src="imagens/Usuário.svg" alt="Icone de perfil"
-                        class="container-imagem icone-perfil"></a>
+                        class="container-imagem icone-compras">
+                    <p class="descricao-icone">Minha sacola</p>
+                </a>
+                <a href="#"><img src="imagens/Usuário.svg" alt="Icone de perfil" class="container-imagem icone-perfil">
+                    <p class="descricao-icone">Meu perfil</p>
+                </a>
             </div>
         </section>
     </header>
@@ -70,42 +73,45 @@
             <input type="search" id="pesquisa" placeholder="Qual será sua próxima leitura?" class="pesquisa-input">
         </section>
 
-        <section class="carrossel">
-            <h2 class="carrossel-titulo">últimos lançamentos</h2>
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
-                    <div class="swiper-slide"><img src="imagens/Arquitetura.svg" alt="Livro arquitetura de software">
+        <div class="conteudo">
+            <section class="carrossel">
+                <h2 class="carrossel-titulo">últimos lançamentos</h2>
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
+                        <div class="swiper-slide"><img src="imagens/Arquitetura.svg"
+                                alt="Livro arquitetura de software">
+                        </div>
+                        <div class="swiper-slide"><img src="imagens/Gestão.svg" alt="Livro de Gestão de produtos"></div>
+                        <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="Livro Javascript assertivo">
+                        </div>
+                        <div class="swiper-slide"><img src="imagens/Nodejs.svg" alt="Livro Nodejs"></div>
+                        <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro de Portugol"></div>
+                        <div class="swiper-slide"><img src="imagens/ReactNative.svg" alt="Livro de React Native"></div>
+                        <div class="swiper-slide"><img src="imagens/Tuning.svg" alt="Livro de Tuning de SQL"></div>
                     </div>
-                    <div class="swiper-slide"><img src="imagens/Gestão.svg" alt="Livro de Gestão de produtos"></div>
-                    <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="Livro Javascript assertivo"></div>
-                    <div class="swiper-slide"><img src="imagens/Nodejs.svg" alt="Livro Nodejs"></div>
-                    <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro de Portugol"></div>
-                    <div class="swiper-slide"><img src="imagens/ReactNative.svg" alt="Livro de React Native"></div>
-                    <div class="swiper-slide"><img src="imagens/Tuning.svg" alt="Livro de Tuning de SQL"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </section>
+            </section>
 
-        <section class="card">
-            <article class="bloco1-card">
-                <h2 class="titulo-card">Talvez você também se interesse por...</h2>
-                <h3 class="subtitulo-card">Angular 11 e Firebase</h3>
-                <p class="texto-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                <a href="#"><img src="imagens/Favoritos.svg" alt="Icone de favoritos"
-                        class="container-imagem card-icones"></a>
-                <a href="#"><img src="imagens/Compras.svg" alt="Icone de compras"
-                        class="container-imagem card-icones"></a>
-            </article>
-            <article class="bloco2-card">
-                <img src="imagens/Angular.svg" alt="Logo do Angular com fundo azul.">
-                <button class="botao-saiba-mais">Saiba mais</button>
-            </article>
-        </section>
-
+            <section class="card">
+                <article class="bloco1-card">
+                    <h2 class="titulo-card">Talvez você também se interesse por...</h2>
+                    <h3 class="subtitulo-card">Angular 11 e Firebase</h3>
+                    <p class="texto-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <a href="#"><img src="imagens/Favoritos.svg" alt="Icone de favoritos"
+                            class="container-imagem card-icones"></a>
+                    <a href="#"><img src="imagens/Compras.svg" alt="Icone de compras"
+                            class="container-imagem card-icones"></a>
+                </article>
+                <article class="bloco2-card">
+                    <img src="imagens/Angular.svg" alt="Logo do Angular com fundo azul.">
+                    <button class="botao-saiba-mais">Saiba mais</button>
+                </article>
+            </section>
+        </div>
         <section class="carrossel">
             <h2 class="carrossel-titulo">Mais vendidos</h2>
             <div class="swiper">
